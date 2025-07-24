@@ -1,0 +1,12 @@
+{
+  "*.{js,jsx}": [
+    "eslint --fix",
+    "prettier --write"
+  ],
+  "*.{json,css,md}": [
+    "prettier --write"
+  ],
+  "*.{js,jsx}": [
+    "npm run test -- --run --passWithNoTests --findRelatedTests"
+  ]
+}

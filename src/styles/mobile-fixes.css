@@ -1,0 +1,119 @@
+/* Mobile Responsiveness Fixes */
+
+/* Ensure content doesn't go under fixed header */
+@media (max-width: 640px) {
+  /* Small mobile screens */
+  .hero-content {
+    padding-top: 5rem !important; /* 80px */
+  }
+  
+  /* Adjust hero minimum height for very small screens */
+  .hero-section {
+    min-height: 100vh;
+    min-height: 100dvh; /* Dynamic viewport height for mobile browsers */
+  }
+}
+
+@media (min-width: 641px) and (max-width: 768px) {
+  /* Medium mobile screens / small tablets */
+  .hero-content {
+    padding-top: 6rem !important; /* 96px */
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* Tablets */
+  .hero-content {
+    padding-top: 4rem !important; /* 64px */
+  }
+}
+
+@media (min-width: 1025px) {
+  /* Desktop */
+  .hero-content {
+    padding-top: 0 !important;
+  }
+}
+
+/* Safe area adjustments for mobile devices with notches */
+@supports (padding-top: env(safe-area-inset-top)) {
+  .hero-section {
+    padding-top: env(safe-area-inset-top);
+  }
+}
+
+/* Prevent horizontal scroll on mobile */
+.hero-section {
+  overflow-x: hidden;
+}
+
+/* Improve touch targets on mobile */
+@media (max-width: 768px) {
+  .hero-nav-dot {
+    min-width: 44px;
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero-nav-button {
+    min-width: 44px;
+    min-height: 44px;
+  }
+}
+
+/* Text readability improvements on mobile */
+@media (max-width: 640px) {
+  .hero-title {
+    line-height: 1.2;
+    word-break: break-word;
+  }
+  
+  .hero-text {
+    line-height: 1.5;
+  }
+  
+  .hero-contact {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+  }
+  
+  .hero-contact.center {
+    align-items: center;
+  }
+}
+
+/* Button improvements for mobile */
+@media (max-width: 640px) {
+  .hero-buttons {
+    width: 100%;
+  }
+  
+  .hero-button {
+    width: 100%;
+    justify-content: center;
+    min-height: 48px;
+  }
+}
+
+/* Animation performance on mobile */
+@media (prefers-reduced-motion: reduce) {
+  .hero-section * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  .hero-overlay {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+  }
+  
+  .hero-text {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9) !important;
+  }
+}
