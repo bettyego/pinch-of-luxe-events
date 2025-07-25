@@ -44,6 +44,30 @@ const slides = [
     text: 'Our commitment to excellence and attention to detail ensures that every celebration we create is a masterpiece. We work closely with you to bring your vision to life with unparalleled sophistication.',
     align: 'center',
     stats: { years: '10+', events: '300+', clients: '99%' }
+  },
+  {
+    image: '/chi27.jpg',
+    subtitle: 'Birthday Celebrations',
+    title: 'Memorable Birthday Experiences',
+    text: 'From milestone birthdays to intimate celebrations, we create magical moments that honor your special day. Our creative designs and attention to detail ensure every birthday becomes an unforgettable experience.',
+    align: 'left',
+    stats: { years: '10+', events: '180+', clients: '97%' }
+  },
+  {
+    image: '/chi33.jpg',
+    subtitle: 'Elegant Decorations',
+    title: 'Stunning Visual Transformations',
+    text: 'Watch ordinary spaces transform into extraordinary venues with our signature decoration style. We combine luxury elements with creative flair to create breathtaking environments for your special occasions.',
+    align: 'right',
+    stats: { years: '10+', events: '400+', clients: '96%' }
+  },
+  {
+    image: '/w10.jpg',
+    subtitle: 'Dream Weddings',
+    title: 'Fairytale Wedding Moments',
+    text: 'Every bride deserves a fairytale wedding. Our expert team crafts romantic, elegant celebrations that capture the essence of your love story and create memories that will last a lifetime.',
+    align: 'center',
+    stats: { years: '10+', events: '250+', clients: '100%' }
   }
 ];
 
