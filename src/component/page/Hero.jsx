@@ -96,10 +96,10 @@ const Hero = React.memo(() => {
           className="absolute inset-0 z-0 bg-cover bg-center"
           style={{ backgroundImage: `url(${currentSlide.image})` }}
         >
-          {/* Professional overlay for better readability */}
-          <div className="absolute inset-0 bg-black/50" />
-          <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/30 to-black/60" />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-black/40" />
+          {/* Lighter overlay for better image visibility */}
+          <div className="absolute inset-0 bg-black/20" />
+          <div className="absolute inset-0 bg-gradient-to-r from-black/30 via-black/10 to-black/30" />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-black/20" />
 
           <div
             className={`relative z-20 h-full flex flex-col justify-center px-6 sm:px-10 md:px-20 lg:px-32 pt-20 sm:pt-24 md:pt-16 lg:pt-0 ${getAlignment(
