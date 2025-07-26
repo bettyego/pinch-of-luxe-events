@@ -139,8 +139,8 @@ const FooterComponent = () => {
 
               <div className="flex items-center space-x-3">
                 <span className="text-[#d4af37]">✉️</span>
-                <a href="mailto:info@pinchofLuxeevents.com" className="text-green-100 hover:text-[#d4af37] transition-colors">
-                  info@pinchofLuxeevents.com
+                <a href="mailto:pinchofluxeevents@gmail.com" className="text-green-100 hover:text-[#d4af37] transition-colors">
+                  pinchofluxeevents@gmail.com
                 </a>
               </div>
 

@@ -131,8 +131,8 @@ const ContactUs = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-[#006400] mb-1">Email</h3>
-                    <a href="mailto:info@pinchofLuxeevents.com" className="text-gray-600 hover:text-[rgb(234,171,12)] transition-colors">
-                      info@pinchofLuxeevents.com
+                    <a href="mailto:pinchofluxeevents@gmail.com" className="text-gray-600 hover:text-[rgb(234,171,12)] transition-colors">
+                      pinchofluxeevents@gmail.com
                     </a>
                   </div>
                 </div>

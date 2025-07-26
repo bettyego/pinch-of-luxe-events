@@ -7,6 +7,7 @@ import { FiMessageCircle, FiCalendar, FiDollarSign, FiHelpCircle, FiPhone } from
 const WHATSAPP_CONFIG = {
   phoneNumber: '+13019063939', // Maryland, USA WhatsApp number
   businessName: 'Pinch of Luxe Events',
+  businessEmail: 'pinchofluxeevents@gmail.com',
   welcomeMessage: 'Hello! 👋 Welcome to Pinch of Luxe Events. How can we help make your event extraordinary?'
 };
 

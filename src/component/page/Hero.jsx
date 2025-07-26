@@ -217,7 +217,7 @@ const Hero = React.memo(() => {
               </div>
               <div className="flex items-center space-x-2">
                 <FiMail className="text-[#d4af37] text-sm sm:text-base" />
-                <span className="break-all sm:break-normal">info@pinchofLuxeevents.com</span>
+                <span className="break-all sm:break-normal">pinchofluxeevents@gmail.com</span>
               </div>
               <div className="flex items-center space-x-2">
                 <FiMapPin className="text-[#d4af37] text-sm sm:text-base" />

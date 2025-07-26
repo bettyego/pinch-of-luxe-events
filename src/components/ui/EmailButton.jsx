@@ -5,7 +5,7 @@ import { FiMessageCircle, FiCalendar, FiDollarSign, FiHelpCircle, FiMail } from 
 
 // Email configuration
 const EMAIL_CONFIG = {
-  emailAddress: 'info@pinchofLuxeevents.com',
+  emailAddress: 'pinchofluxeevents@gmail.com',
   businessName: 'Pinch of Luxe Events',
   welcomeMessage: 'Hello! 👋 Welcome to Pinch of Luxe Events. How can we help make your event extraordinary?'
 };

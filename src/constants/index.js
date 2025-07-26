@@ -85,7 +85,7 @@ export const SOCIAL_LINKS = {
 
 // Contact Information
 export const CONTACT_INFO = {
-  email: 'info@pinchofluxeevents.com',
+  email: 'pinchofluxeevents@gmail.com',
   phone: '+1 (301) 906-3939',
   address: {
     street: 'Professional Event Planning Services',
