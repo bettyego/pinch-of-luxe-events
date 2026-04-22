@@ -88,49 +88,7 @@ const Owner = () => {
         </div>
       </section>
 
-    {/* Achievements Section */}
-    <section className="py-20 px-6 bg-gradient-to-r from-[#fef9ec] to-white">
-      <div className="max-w-6xl mx-auto">
-        <motion.div
-          initial={{ opacity: 0, y: 50 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1 }}
-          viewport={{ once: true }}
-          className="text-center mb-16"
-        >
-          <h3 className="text-4xl md:text-5xl font-['Cormorant_Garamond'] font-light text-[#006400] mb-6 tracking-wider">
-            Achievements & Milestones
-          </h3>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto font-['Crimson_Text'] font-light tracking-wide leading-relaxed">
-            A testament to dedication, creativity, and the pursuit of excellence in luxury event planning.
-          </p>
-        </motion.div>
-
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-          {[
-            { number: '500+', label: 'Events Created', icon: '🎉' },
-            { number: '5+', label: 'Years Experience', icon: '⭐' },
-            { number: '100%', label: 'Client Satisfaction', icon: '❤️' },
-            { number: '50+', label: 'Happy Couples', icon: '💍' }
-          ].map((achievement, index) => (
-            <motion.div
-              key={index}
-              initial={{ opacity: 0, scale: 0.8 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              transition={{ delay: index * 0.2, duration: 0.8 }}
-              viewport={{ once: true }}
-              className="text-center group"
-            >
-              <div className="bg-white rounded-3xl shadow-xl p-8 border border-[#d4af37] transform group-hover:scale-105 transition-all duration-300">
-                <div className="text-5xl mb-4">{achievement.icon}</div>
-                <div className="text-4xl font-bold text-[#006400] mb-2">{achievement.number}</div>
-                <div className="text-gray-600 font-medium">{achievement.label}</div>
-              </div>
-            </motion.div>
-          ))}
-        </div>
-      </div>
-    </section>
+  
 
     {/* Values & Philosophy Section */}
     <section className="py-20 px-6">
@@ -224,3 +182,5 @@ const Owner = () => {
 };
 
 export default Owner;
+
+

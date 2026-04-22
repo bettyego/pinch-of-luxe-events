@@ -54,9 +54,8 @@ const Header = () => {
           <nav className="hidden md:flex gap-5 lg:gap-8 text-base lg:text-lg text-green-900 font-medium">
             <Link to="/" className="hover:text-[#b8860b] transition">Home</Link>
             <Link to="/about" className="hover:text-[#b8860b] transition">About Us</Link>
-            <Link to="/services" className="hover:text-[#b8860b] transition">Services</Link>
             <Link to="/inquiryform" className="hover:text-[#b8860b] transition">Inquiry</Link>
-            <Link to="/review" className="hover:text-[#b8860b] transition">Reviews</Link>
+            {/* <Link to="/review" className="hover:text-[#b8860b] transition">Reviews</Link> */}
             <Link to="/gallery" className="hover:text-[#b8860b] transition">Gallery</Link>
             <Link to="/contact" className="hover:text-[#b8860b] transition">Contact</Link>
           </nav>
@@ -68,7 +67,7 @@ const Header = () => {
               className="text-xs text-gray-500 hover:text-[#b8860b] transition"
               title="Admin Access"
             >
-              🔐
+              {/* 🔐 */}
             </Link>
             <Link
               to="/inquiryform"
