@@ -1,26 +1,32 @@
 import React, { useState, useMemo } from 'react';
 
 /* ===============================
-   🔥 YOUR DATA (FIXED)
+   🔥 FIXED ROYAL BALL IMAGES
 ================================ */
 
 const royalBallImages = [
-  '/1SM08180.jpg','/1SM07889.jpg','/1SM07890.jpg','/1SM07891.jpg',
-  '/1SM07901.jpg','/1SM07902.jpg','/1SM07918.jpg','/1SM07926.jpg',
+  '/1SM07889.jpg','/1SM07890.jpg','/1SM07891.jpg',
+  '/1SM07901.jpg', '/1SM07918.jpg','/1SM07926.jpg',
   '/1SM07934.jpg','/1SM07936.jpg','/1SM07938.jpg','/1SM07940.jpg',
-  '/1SM07941.jpg','/1SM07949.jpg','/1SM07959.jpg','/1SM07985.jpg',
-  '/1SM07987.jpg','/1SM07989.jpg','/1SM07992.jpg','/1SM07995.jpg',
+  '/1SM07941.jpg','/1SM07949.jpg','/1SM07959.jpg',
+  '/1SM07985.jpg','/1SM07987.jpg','/1SM07989.jpg','/1SM07992.jpg','/1SM07995.jpg',
+
   '/1SM08004.jpg','/1SM08009.jpg','/1SM08015.jpg','/1SM08017.jpg',
   '/1SM08026.jpg','/1SM08035.jpg','/1SM08041.jpg','/1SM08044.jpg',
-  '/1SM08048.jpg','/1SM08049.jpg','/1SM08088.jpg','/1SM08128.jpg',
-  '/1SM08092.jpg','/1SM08100.jpg','/1SM08132.jpg','/1SM08135.jpg',
-  '/1SM08143.jpg','/1SM08155.jpg','/1SM08163.jpg','/1SM08162.jpg',
-  '/1SM08171.jpg','/1SM08178.jpg','/1SM08183.jpg','/1SM08187.jpg',
-  '/1SM08205.jpg','/1SM08212.jpg','/1SM08232.jpg','/1SM08246.jpg',
-  '/1SM08248.jpg','/1SM08257.jpg','/1SM08267.jpg','/1SM08305.jpg',
-  '/1SM08307.jpg','/1SM08312.jpg','/1SM08348.jpg','/1SM08357.jpg',
-  '/1SM08358.jpg'
+  '/1SM08048.jpg','/1SM08049.jpg','/1SM08088.jpg','/1SM08092.jpg',
+
+  '/1SM08100.jpg','/1SM08128.jpg','/1SM08132.jpg','/1SM08135.jpg',
+  '/1SM08143.jpg','/1SM08155.jpg','/1SM08162.jpg','/1SM08163.jpg',
+  '/1SM08171.jpg','/1SM08178.jpg','/1SM08180.jpg','/1SM08183.jpg','/1SM08187.jpg',
+
+  '/1SM08205.jpg','/1SM08212.jpg','/1SM08232.jpg','/1SM08246.jpg','/1SM08248.jpg',
+  '/1SM08257.jpg','/1SM08267.jpg',
+
+  '/1SM08305.jpg','/1SM08307.jpg','/1SM08312.jpg',
+  '/1SM08348.jpg','/1SM08357.jpg','/1SM08358.jpg'
 ];
+
+
 
 const galleryData = {
   "Alina & Ariana’s 1st Royal Ball": royalBallImages,
@@ -46,7 +52,7 @@ const galleryData = {
     '/6Y0A8872.jpg','/6Y0A8868.jpg'
   ],
 
-    "Birthday": [
+  "Birthday": [
     '/chi2.jpg','/chi6.jpg','/chi17.jpg','/chi16.jpg','/chi40.jpg',
     '/chi10.jpg','/chi14.jpg','/chi41.jpg','/chi42.jpg','/chi24.jpg',
     '/chi26.jpg','/chi30.jpg','/chi3.jpg','/chi32.jpg','/chi31.jpg',
@@ -117,7 +123,9 @@ const Gallery = () => {
             >
               <img
                 src={img}
+                loading="lazy"
                 alt=""
+                onError={(e) => (e.target.style.display = 'none')}
                 className="w-full h-60 object-cover group-hover:scale-110 transition duration-500"
               />
             </div>
