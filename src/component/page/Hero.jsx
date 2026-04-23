@@ -14,7 +14,7 @@ const slideStyles = {
 
 const slides = [
   {
-    image: 'public/IMG_4418.jpeg',
+    image: '/IMG_4418.jpeg',
     subtitle: 'Premier Event Planning',
     title: 'Exceptional Events, Extraordinary Experiences',
     text: 'Elegant, thoughtfully designed events tailored to your vision. We bring beauty, style, and seamless execution to every celebration.',
