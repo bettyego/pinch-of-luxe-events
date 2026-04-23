@@ -46,10 +46,14 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-3">
 
-          {/* LOGO */}
-          <div className="flex items-center gap-2">
-            <img src="/pfx.jpg" alt="Pinchofluxeevents Logo" className="h-10 w-auto object-contain" />
-          </div>
+       {/* LOGO */}
+<div className="flex items-center h-14 md:h-16">
+  <img
+    src="/lg12.png"
+    alt="Pinchofluxeevents Logo"
+    className="h-full w-auto object-contain"
+  />
+</div>
 
           {/* DESKTOP NAV */}
           <nav className="hidden md:flex gap-5 lg:gap-8 text-base lg:text-lg text-green-900 font-medium">

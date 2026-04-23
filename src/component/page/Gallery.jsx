@@ -87,7 +87,7 @@ const Gallery = () => {
       <div className="max-w-7xl mx-auto">
 
         {/* HEADER */}
-        <div className="text-center mb-12">
+        <div className="text-center mb-12 py-10">
           <h1 className="text-4xl font-bold text-[#006400] mb-3">
             Our Gallery
           </h1>
