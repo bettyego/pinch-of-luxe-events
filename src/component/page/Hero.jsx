@@ -20,6 +20,8 @@ const slides = [
     text: 'Elegant, thoughtfully designed events tailored to your vision. We bring beauty, style, and seamless execution to every celebration.',
     align: 'center',
   },
+
+
   {
     image: '/w15.jpg',
     subtitle: 'Wedding Excellence',
@@ -35,10 +37,31 @@ const slides = [
     align: 'right',
   },
   {
-    image: '/chi41.jpg',
+    image: '/1SM07992.jpg',
     subtitle: 'Luxury Celebrations',
     title: 'Bespoke Event Design',
     text: 'Every detail matters. We create immersive, elegant celebrations designed to reflect your unique style.',
+    align: 'center',
+  },
+  {
+    image: '/w13.jpg',
+    subtitle: 'Signature Florals',
+    title: 'Blooms That Set the Scene',
+    text: 'Lush, hand-curated floral designs that bring warmth, texture, and elegance to every celebration.',
+    align: 'left',
+  },
+  {
+    image: '/w12.jpg',
+    subtitle: 'Romantic Ceremonies',
+    title: 'Where Love Takes the Stage',
+    text: 'Intimate, beautifully styled ceremonies crafted to make every vow feel timeless.',
+    align: 'right',
+  },
+  {
+    image: '/w14.jpg',
+    subtitle: 'Elegant Receptions',
+    title: 'Celebrations to Remember',
+    text: 'Sophisticated table settings, curated lighting, and refined décor — designed to leave a lasting impression.',
     align: 'center',
   },
 ];
