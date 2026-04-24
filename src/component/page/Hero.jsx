@@ -30,7 +30,7 @@ const slides = [
     align: 'left',
   },
   {
-    image: '/w3.jpg',
+    image: '/BNJ_7812.jpg',
     subtitle: 'Corporate Events',
     title: 'Professional Event Experiences',
     text: 'From intimate gatherings to grand launches, we deliver polished events that leave lasting impressions.',

@@ -21,6 +21,18 @@ const royalBallImages = [
 
 export const galleryAlbums = [
   {
+    category: "Uchenna & Ugochukwu\u2019s Wedding Reception",
+    slug: 'uchenna-ugochukwu-wedding',
+    coverImage: '/BNJ_8101.jpg',
+    images: [
+      '/BNJ_8101.jpg', '/BNJ_7795.jpg', '/BNJ_7801.jpg', '/BNJ_7803.jpg',
+      '/BNJ_7804.jpg', '/BNJ_7805.jpg', '/BNJ_7806.jpg', '/BNJ_7810.jpg',
+      '/BNJ_7811.jpg', '/BNJ_7812.jpg', '/BNJ_7814.jpg', '/BNJ_7818.jpg',
+      '/BNJ_8075.jpg', '/BNJ_8086.jpg', '/BNJ_8099.jpg', '/BNJ_7794.jpg',
+      '/BNJ_7787.jpg', '/BNJ_7784.jpg',
+    ],
+  },
+  {
     category: "Alina & Ariana's 1st Royal Ball",
     slug: 'royal-ball',
     coverImage: '/1SM07889.jpg',
