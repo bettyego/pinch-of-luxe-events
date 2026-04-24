@@ -1,8 +1,6 @@
 import React from 'react'
 import Hero from './Hero'
 import Features from './Features'
-import Owners from './Owner'
-// import ClientReviewSlider from './ClientReviewSlider'
 import LetsTalk from './LetsTalk'
 import VideoPage from './VideoPage'
 
@@ -11,9 +9,9 @@ const Home = () => {
     <div>
         <Hero />
         <Features />
-        <Owners />
-        <VideoPage />
-        {/* <ClientReviewSlider /> */}
+        
+        {/* <VideoPage /> */}
+        
         <LetsTalk />
     </div>
   )

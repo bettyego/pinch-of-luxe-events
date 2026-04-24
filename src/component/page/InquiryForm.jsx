@@ -80,41 +80,11 @@ const InquiryForm = () => {
     setFormData({ ...formData, country: selected ? selected.label : '' });
   };
 
-  // ✅ EMAIL REDIRECT FIX
-  const handleSubmit = (e) => {
-    e.preventDefault();
-
-    if (!validateForm()) return;
-
-    const subject = encodeURIComponent("New Event Inquiry");
-
-    const body = encodeURIComponent(`
-First Name: ${formData.firstName}
-Last Name: ${formData.lastName}
-Email: ${formData.email}
-Phone: ${formData.phone}
-Country: ${formData.country}
-
-Event Type: ${formData.eventType}
-Services: ${formData.services.join(', ')}
-
-Venue: ${formData.venue}
-Event Date: ${formData.eventDate}
-Guest Count: ${formData.guestCount}
-
-Vision:
-${formData.vision}
-
-Budget: ${formData.budget}
-Planner: ${formData.planner}
-Consultation: ${formData.consultation}
-
-Pricing Guide: ${formData.pricingGuide ? 'Yes' : 'No'}
-Referral: ${formData.referral}
-    `);
-
-    window.location.href = `mailto:pinchofluxeevents@gmail.com?subject=${subject}&body=${body}`;
-  };
+  // ✅ UPDATED SUBMIT → REDIRECT TO CALENDLY
+ const handleSubmit = (e) => {
+  e.preventDefault();
+  window.location.href = "https://calendly.com/pinchofluxeevents/15mins";
+};
 
   return (
     <div className="max-w-4xl mx-auto p-8 bg-white shadow-lg rounded-lg mt-28 py-12">
@@ -164,7 +134,7 @@ Referral: ${formData.referral}
         {/* SUBMIT */}
         <div className="text-center">
           <button className="px-8 py-3 mt-6 rounded-full text-white bg-[#b8860b] hover:opacity-90">
-            Send Inquiry
+            Continue to Booking
           </button>
         </div>
 

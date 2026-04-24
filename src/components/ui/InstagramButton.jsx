@@ -19,8 +19,8 @@ const InstagramButton = () => {
 
   const buttonVariants = {
     hidden: { scale: 0, opacity: 0 },
-    visible: { 
-      scale: 1, 
+    visible: {
+      scale: 1,
       opacity: 1,
       transition: { type: "spring", stiffness: 260, damping: 20 }
     },

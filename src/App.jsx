@@ -4,15 +4,16 @@ import { Layout } from "./component/page/Layout";
 import Home from "./component/page/Home";
 import AboutUs from "./component/page/AboutUs";
 import InquiryForm from "./component/page/InquiryForm";
-// import ClientReview from "./component/page/ClientReview";
+
 import Gallery from "./component/page/Gallery";
+import CategoryPage from "./components/gallery/CategoryPage";
 import ContactUs from "./component/page/ContactUs";
-// import Admin from "./component/page/Admin";
+
 import NotFound from "./component/page/NotFound";
 import FeaturesDemo from "./component/page/FeaturesDemo";
 import { ToastProvider, useToast } from "./hooks/useToast.jsx";
 import ToastContainer from "./components/ui/ToastContainer";
-import ErrorBoundary from "./components/ErrorBoundary";
+import ErrorBoundary from "./component/ErrorBoundary";
 import "./styles/mobile-fixes.css";
 
 // Toast Container Wrapper
@@ -35,12 +36,11 @@ function App() {
             <Route index element={<Home />} />
             <Route path="about" element={<AboutUs />} />
             <Route path="inquiryform" element={<InquiryForm />} />
-            {/* <Route path="review" element={<ClientReview />} /> */}
             <Route path="gallery" element={<Gallery />} />
+            <Route path="gallery/:category" element={<CategoryPage />} />
             <Route path="contact" element={<ContactUs />} />
             <Route path="demo" element={<FeaturesDemo />} />
           </Route>
-          {/* <Route path="/admin" element={<Admin />} /> */}
           <Route path="*" element={<NotFound />} />
         </Routes>
         <ToastWrapper />

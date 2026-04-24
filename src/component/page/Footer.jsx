@@ -70,8 +70,21 @@ const FooterComponent = () => {
             </h4>
 
             <div className="space-y-3 text-white/80">
-              <p>+1 (301) 906-3939</p>
-              <p>pinchofluxeevents@gmail.com</p>
+              <p>
+                <a href="tel:+13019063939" className="hover:text-[#b8860b] transition">
+                  +1 (301) 906-3939
+                </a>
+              </p>
+              <p>
+                <a href="tel:+12407081721" className="hover:text-[#b8860b] transition">
+                  +1 (240) 708-1721
+                </a>
+              </p>
+              <p>
+                <a href="mailto:pinchofluxeevents@gmail.com" className="hover:text-[#b8860b] transition">
+                  pinchofluxeevents@gmail.com
+                </a>
+              </p>
             </div>
 
             <div className="flex space-x-4 mt-6">
@@ -100,14 +113,9 @@ const FooterComponent = () => {
             © {currentYear} Pinch of Luxe Events. All rights reserved.
           </p>
 
-          <div className="flex space-x-6 mt-4 md:mt-0">
-            <a href="/privacy" className="hover:text-[#b8860b]">
-              Privacy Policy
-            </a>
-            <a href="/terms" className="hover:text-[#b8860b]">
-              Terms
-            </a>
-          </div>
+          <p className="mt-4 md:mt-0">
+            Based in the DMV · Serving DC, Maryland &amp; Virginia
+          </p>
         </div>
 
         {/* Developer Signature */}

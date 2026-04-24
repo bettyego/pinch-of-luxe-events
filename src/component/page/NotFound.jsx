@@ -97,9 +97,8 @@ const NotFound = () => {
             <p className="text-sm text-gray-500 mb-3">Quick Links:</p>
             <div className="flex flex-wrap justify-center gap-4 text-sm">
               <Link to="/about" className="text-green-600 hover:text-green-800 transition">About Us</Link>
-              <Link to="/services" className="text-green-600 hover:text-green-800 transition">Services</Link>
+              <Link to="/gallery" className="text-green-600 hover:text-green-800 transition">Gallery</Link>
               <Link to="/inquiryform" className="text-green-600 hover:text-green-800 transition">Book Event</Link>
-              <Link to="/review" className="text-green-600 hover:text-green-800 transition">Reviews</Link>
             </div>
           </motion.div>
         </motion.div>
