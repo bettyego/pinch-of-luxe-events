@@ -100,6 +100,22 @@ export const galleryAlbums = [
       '/chi31.jpg', '/chi24.jpg', '/chi35.jpg', '/chi38.jpg', '/chi7.jpg',
     ],
   },
+  {
+    category: 'Baby Shower',
+    slug: 'baby-shower',
+    coverImage: '/KLP00320_websize.jpg',
+    images: [
+      '/KLP00320_websize.jpg', '/KLP00325_websize.jpg', '/KLP00327_websize.jpg',
+      '/KLP00328_websize.jpg', '/KLP00331_websize.jpg', '/KLP00340_websize.jpg',
+      '/KLP00348_websize.jpg', '/KLP00350_websize.jpg', '/KLP00355_websize.jpg',
+      '/KLP00359_websize.jpg', '/KLP00367_websize.jpg', '/KLP00370_websize.jpg',
+      '/KLP00372_websize.jpg', '/KLP00373_websize.jpg', '/KLP00374_websize.jpg',
+      '/KLP00380_websize.jpg', '/KLP00383_websize.jpg', '/KLP00389_websize.jpg',
+      '/KLP00398_websize.jpg', '/KLP00411_websize.jpg', '/KLP00412_websize.jpg',
+      '/KLP00415_websize.jpg', '/KLP00416_websize.jpg', '/KLP00422_websize.jpg',
+      '/KLP00429_websize.jpg', '/KLP00431_websize.jpg', '/KLP00440_websize.jpg',
+    ],
+  },
 ];
 
 export const ALL_SLUG = 'all';

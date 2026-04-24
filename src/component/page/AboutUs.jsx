@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { FaGem, FaHeart, FaStar } from 'react-icons/fa';
 
 const videos = [
-  { src: '/ChichiBirthdayDecor.mp4', title: "ChiChi's Birthday Décor" },
+  { src: '/ChichiBirthdayDecor.mp4', title: "Chidinma’s 35th Birthday Décor" },
   { src: '/Braveboy1.mp4', title: 'Brave Boy Celebration' },
   { src: '/chiVid.mp4', title: 'Behind the Scenes' },
   { src: '/vid.mp4', title: 'Signature Setup' },

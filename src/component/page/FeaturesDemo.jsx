@@ -202,6 +202,7 @@ const FeaturesDemo = () => {
           ))}
         </motion.div>
 
+        
         {/* Demo Content */}
         <motion.div
           key={activeDemo}
