@@ -118,29 +118,6 @@ const AboutUs = () => {
         </div>
       </section>
 
-      {/* STATS STRIP */}
-      <section className="py-14 px-6 bg-[#006400] text-white">
-        <div className="max-w-5xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-          {[
-            { k: '2020', v: 'Founded' },
-            { k: '500+', v: 'Celebrations' },
-            { k: 'DMV', v: 'DC · MD · VA' },
-            { k: '100%', v: 'Bespoke Design' },
-          ].map((s, i) => (
-            <motion.div
-              key={i}
-              initial={{ opacity: 0, y: 16 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: i * 0.1 }}
-            >
-              <p className="elegant-heading text-4xl md:text-5xl text-[#d4af37]">{s.k}</p>
-              <p className="elegant-body uppercase tracking-widest text-sm mt-2 text-white/80">{s.v}</p>
-            </motion.div>
-          ))}
-        </div>
-      </section>
-
       {/* PILLARS */}
       <section className="py-20 px-6 bg-gradient-to-b from-white to-[#fef9ec]">
         <div className="max-w-6xl mx-auto text-center">
