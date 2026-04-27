@@ -23,13 +23,13 @@ export const galleryAlbums = [
   {
     category: "Uchenna & Ugochukwu\u2019s Wedding Reception",
     slug: 'uchenna-ugochukwu-wedding',
-    coverImage: '/BNJ_8101.jpg',
+    coverImage: '/BNJ_8075.jpg',
     images: [
       '/BNJ_8101.jpg', '/BNJ_7795.jpg', '/BNJ_7801.jpg', '/BNJ_7803.jpg',
       '/BNJ_7804.jpg', '/BNJ_7805.jpg', '/BNJ_7806.jpg', '/BNJ_7810.jpg',
       '/BNJ_7811.jpg', '/BNJ_7812.jpg', '/BNJ_7814.jpg', '/BNJ_7818.jpg',
       '/BNJ_8075.jpg', '/BNJ_8086.jpg', '/BNJ_8099.jpg', '/BNJ_7794.jpg',
-      '/BNJ_7787.jpg', '/BNJ_7784.jpg',
+      '/BNJ_7787.jpg', '/BNJ_7784.jpg', '/1SM07901.jpg',
     ],
   },
   {
@@ -63,7 +63,7 @@ export const galleryAlbums = [
     slug: 'brunch-with-braveboy',
     coverImage: '/DSC07091.jpg',
     images: [
-      '/DSC03021.jpg', '/DSC07091.jpg', '/DSC07102.jpg', '/DSC07146.jpg',
+     '/DSC07091.jpg', '/DSC07102.jpg', '/DSC07146.jpg',
       '/DSC07184.jpg', '/DSC07186.jpg', '/DSC07232.jpg', '/DSC07237.jpg',
       '/DSC07289.jpg', '/DSC07296.jpg', '/DSC01206-Enhanced-NR.jpg',
       '/DSC01165-Enhanced-NR.jpg', '/DSC01126-Enhanced-NR.jpg', '/DSC01001-Enhanced-NR.jpg',
@@ -113,10 +113,12 @@ export const galleryAlbums = [
     ],
   },
   {
-    category: 'Baby Shower',
+    category: 'Ananiah’s Baby Shower',
     slug: 'baby-shower',
-    coverImage: '/KLP00320_websize.jpg',
+    coverImage: '/SMD01821_websize.jpg',
     images: [
+      '/SMD02209_websize.jpg', '/SMN06048.jpg', '/SMD01992_websize.jpg', '/SMD02169_websize.jpg',
+      '/SMD01818_websize.jpg', '/SMD01821_websize.jpg', '/SMD01990_websize.jpg',
       '/KLP00320_websize.jpg', '/KLP00325_websize.jpg', '/KLP00327_websize.jpg',
       '/KLP00328_websize.jpg', '/KLP00331_websize.jpg', '/KLP00340_websize.jpg',
       '/KLP00348_websize.jpg', '/KLP00350_websize.jpg', '/KLP00355_websize.jpg',
@@ -129,19 +131,19 @@ export const galleryAlbums = [
     ],
   },
   {
-    category: "Ananiah\u2019s Baby Shower",
-    slug: 'ananiah-baby-shower',
-    coverImage: '/SMD01818_websize.jpg',
+    category: "Chandie Girls",
+    slug: 'chandie Girls',
+    coverImage: '/SMN05916.jpg',
     images: [
-      '/SMD01818_websize.jpg', '/SMD01821_websize.jpg', '/SMD01990_websize.jpg',
-      '/SMD01992_websize.jpg', '/SMD02169_websize.jpg', '/SMD02209_websize.jpg',
+       
+       
       '/SMN05803.jpg', '/SMN05804.jpg', '/SMN05824.jpg', '/SMN05832.jpg',
       '/SMN05854.jpg', '/SMN05896.jpg', '/SMN05916.jpg', '/SMN05918.jpg',
       '/SMN05922.jpg', '/SMN05940.jpg', '/SMN05942.jpg', '/SMN05947.jpg',
       '/SMN05953.jpg', '/SMN05968.jpg', '/SMN05975.jpg', '/SMN05992.jpg',
       '/SMN05997.jpg', '/SMN05999.jpg', '/SMN06000.jpg', '/SMN06008.jpg',
       '/SMN06011.jpg', '/SMN06026.jpg', '/SMN06030.jpg', '/SMN06035.jpg',
-      '/SMN06037.jpg', '/SMN06043.jpg', '/SMN06045.jpg', '/SMN06048.jpg',
+      '/SMN06037.jpg', '/SMN06043.jpg', '/SMN06045.jpg', 
       '/SMN06051.jpg', '/SMN06053.jpg', '/SMN06056.jpg', '/SMN06058.jpg',
       '/SMN06061.jpg', '/SMN06079.jpg', '/SMN06083.jpg', '/SMN06093.jpg',
       '/SMN06105.jpg', '/SMN06113.jpg', '/SMN06176.jpg', '/SMN06180.jpg',
