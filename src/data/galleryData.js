@@ -3,7 +3,7 @@
 
 const royalBallImages = [
   '/1SM07889.jpg', '/1SM07890.jpg', '/1SM07891.jpg',
-  '/1SM07901.jpg', '/1SM07918.jpg', '/1SM07926.jpg',
+   '/1SM07918.jpg', '/1SM07926.jpg',
   '/1SM07934.jpg', '/1SM07936.jpg', '/1SM07938.jpg', '/1SM07940.jpg',
   '/1SM07941.jpg', '/1SM07949.jpg', '/1SM07959.jpg',
   '/1SM07985.jpg', '/1SM07987.jpg', '/1SM07989.jpg', '/1SM07992.jpg', '/1SM07995.jpg',
@@ -126,6 +126,28 @@ export const galleryAlbums = [
       '/KLP00398_websize.jpg', '/KLP00411_websize.jpg', '/KLP00412_websize.jpg',
       '/KLP00415_websize.jpg', '/KLP00416_websize.jpg', '/KLP00422_websize.jpg',
       '/KLP00429_websize.jpg', '/KLP00431_websize.jpg', '/KLP00440_websize.jpg',
+    ],
+  },
+  {
+    category: "Ananiah\u2019s Baby Shower",
+    slug: 'ananiah-baby-shower',
+    coverImage: '/SMD01818_websize.jpg',
+    images: [
+      '/SMD01818_websize.jpg', '/SMD01821_websize.jpg', '/SMD01990_websize.jpg',
+      '/SMD01992_websize.jpg', '/SMD02169_websize.jpg', '/SMD02209_websize.jpg',
+      '/SMN05803.jpg', '/SMN05804.jpg', '/SMN05824.jpg', '/SMN05832.jpg',
+      '/SMN05854.jpg', '/SMN05896.jpg', '/SMN05916.jpg', '/SMN05918.jpg',
+      '/SMN05922.jpg', '/SMN05940.jpg', '/SMN05942.jpg', '/SMN05947.jpg',
+      '/SMN05953.jpg', '/SMN05968.jpg', '/SMN05975.jpg', '/SMN05992.jpg',
+      '/SMN05997.jpg', '/SMN05999.jpg', '/SMN06000.jpg', '/SMN06008.jpg',
+      '/SMN06011.jpg', '/SMN06026.jpg', '/SMN06030.jpg', '/SMN06035.jpg',
+      '/SMN06037.jpg', '/SMN06043.jpg', '/SMN06045.jpg', '/SMN06048.jpg',
+      '/SMN06051.jpg', '/SMN06053.jpg', '/SMN06056.jpg', '/SMN06058.jpg',
+      '/SMN06061.jpg', '/SMN06079.jpg', '/SMN06083.jpg', '/SMN06093.jpg',
+      '/SMN06105.jpg', '/SMN06113.jpg', '/SMN06176.jpg', '/SMN06180.jpg',
+      '/SMN06252.jpg', '/SMN06351.jpg', '/SMN06410.jpg', '/SMN06452.jpg',
+      '/SMN06461.jpg', '/SMN06466.jpg', '/SMN06615.jpg', '/SMN06695.jpg',
+      '/SMN06728.jpg', '/SMN06752.jpg', '/SMN07259.jpg', '/SMN08304.jpg',
     ],
   },
 ];

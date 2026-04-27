@@ -4,12 +4,16 @@ import { motion } from 'framer-motion';
 import { FaGem, FaHeart, FaStar } from 'react-icons/fa';
 
 const videos = [
-  { src: '/ChichiBirthdayDecor.mp4', title: "Chidinma’s 35th Birthday Décor" },
+  { src: '/Zuri .mp4', title: 'Zuri is One' },
+  { src: '/ChichiBirthdayDecor.mp4', title: "Blooming into Bad & Boujee" },
   { src: '/Braveboy1.mp4', title: 'Brave Boy Celebration' },
-  { src: '/chiVid.mp4', title: 'Behind the Scenes' },
+  { src: '/Chandie.mp4', title: 'Chandie Girls' },
   { src: '/vid.mp4', title: 'Signature Setup' },
-  { src: '/vid1.mp4', title: 'Gilded Moments' },
-  { src: '/vid2.mp4', title: 'The Final Reveal' },
+  { src: '/vid1.mp4', title: 'Aisha Braveboy Inauguration: Prince George’s County Executive' },
+  { src: '/vid2.mp4', title: 'First Royal Ball' },
+   { src: '/His.mp4', title: 'His Royal Majesty is One' },
+  
+  
 ];
 
 const pillars = [

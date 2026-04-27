@@ -1,144 +1,86 @@
-import { useState } from 'react';
-import Select from 'react-select';
-import countryList from 'react-select-country-list';
+import { useEffect } from 'react';
+import { motion } from 'framer-motion';
+
+const CALENDLY_URL = 'https://calendly.com/pinchofluxeevents/15mins';
 
 const InquiryForm = () => {
-  const [formData, setFormData] = useState({
-    firstName: '',
-    lastName: '',
-    email: '',
-    phone: '',
-    country: '',
-    eventType: '',
-    services: [],
-    venue: '',
-    eventDate: '',
-    guestCount: '',
-    vision: '',
-    budget: '',
-    planner: '',
-    consultation: '',
-    pricingGuide: false,
-    referral: '',
-  });
+  useEffect(() => {
+    const existing = document.querySelector(
+      'script[src="https://assets.calendly.com/assets/external/widget.js"]'
+    );
+    if (existing) return;
 
-  const [errors, setErrors] = useState({});
-  const countries = countryList().getData();
-
-  const eventTypes = [
-    'Wedding Reception',
-    'Wedding Ceremony',
-    'Corporate/Commercial',
-    'Engagement/Proposal',
-    'Bridal Shower',
-    'Baby Shower',
-    'Birthday',
-    'Other'
-  ];
-
-  const serviceOptions = [
-    'Floral Design',
-    'Event Design',
-    'Rentals'
-  ];
-
-  const validateForm = () => {
-    const newErrors = {};
-
-    if (!formData.firstName.trim()) newErrors.firstName = 'First name is required';
-    if (!formData.lastName.trim()) newErrors.lastName = 'Last name is required';
-    if (!formData.email.trim()) newErrors.email = 'Email is required';
-    if (!formData.phone.trim()) newErrors.phone = 'Phone number is required';
-    if (!formData.eventType) newErrors.eventType = 'Event type is required';
-    if (!formData.venue.trim()) newErrors.venue = 'Venue is required';
-    if (!formData.eventDate) newErrors.eventDate = 'Event date is required';
-
-    setErrors(newErrors);
-    return Object.keys(newErrors).length === 0;
-  };
-
-  const handleChange = (e) => {
-    const { name, value, type, checked } = e.target;
-    setFormData({
-      ...formData,
-      [name]: type === 'checkbox' ? checked : value,
-    });
-
-    if (errors[name]) {
-      setErrors(prev => ({
-        ...prev,
-        [name]: ''
-      }));
-    }
-  };
-
-  const handleMultiSelect = (selected) => {
-    setFormData({ ...formData, services: selected.map(s => s.value) });
-  };
-
-  const handleCountryChange = (selected) => {
-    setFormData({ ...formData, country: selected ? selected.label : '' });
-  };
-
-  // ✅ UPDATED SUBMIT → REDIRECT TO CALENDLY
- const handleSubmit = (e) => {
-  e.preventDefault();
-  window.location.href = "https://calendly.com/pinchofluxeevents/15mins";
-};
+    const script = document.createElement('script');
+    script.src = 'https://assets.calendly.com/assets/external/widget.js';
+    script.async = true;
+    document.body.appendChild(script);
+  }, []);
 
   return (
-    <div className="max-w-4xl mx-auto p-8 bg-white shadow-lg rounded-lg mt-28 py-12">
-      <h2 className="text-3xl font-semibold text-center text-green-700 mb-8">
-        Event Inquiry Form
-      </h2>
-
-      <form onSubmit={handleSubmit} className="space-y-6">
-
-        {/* NAME */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <input name="firstName" value={formData.firstName} onChange={handleChange} placeholder="First Name" className="input" />
-          <input name="lastName" value={formData.lastName} onChange={handleChange} placeholder="Last Name" className="input" />
+    <div className="bg-gradient-to-b from-[#fef9ec] via-white to-white">
+      {/* HERO */}
+      <section className="pt-28 pb-10 px-6 text-center">
+        <motion.p
+          initial={{ opacity: 0, y: 12 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          className="text-2xl md:text-3xl text-[#b8860b] mb-3"
+          style={{ fontFamily: 'var(--font-accent)' }}
+        >
+          let’s plan something beautiful
+        </motion.p>
+        <motion.h1
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.7, delay: 0.1 }}
+          className="elegant-heading text-4xl md:text-6xl text-[#006400] mb-5"
+        >
+          Book a <span className="text-[#b8860b] italic">Consultation</span>
+        </motion.h1>
+        <div className="flex items-center justify-center gap-3 mb-6" aria-hidden="true">
+          <span className="h-px w-16 bg-[#d4af37]" />
+          <span className="w-2 h-2 rounded-full bg-[#d4af37]" />
+          <span className="h-px w-16 bg-[#d4af37]" />
         </div>
+        <motion.p
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.3, duration: 0.7 }}
+          className="elegant-body text-lg md:text-xl text-gray-600 max-w-2xl mx-auto"
+        >
+          Pick a time that works for you and we’ll talk through your vision, your venue, and how
+          we can bring it all to life.
+        </motion.p>
+      </section>
 
-        {/* CONTACT */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <input name="email" value={formData.email} onChange={handleChange} placeholder="Email" className="input" />
-          <input name="phone" value={formData.phone} onChange={handleChange} placeholder="Phone" className="input" />
-        </div>
+      {/* CALENDLY EMBED */}
+      <section className="px-4 sm:px-6 lg:px-8 pb-20">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.4, duration: 0.6 }}
+          className="max-w-5xl mx-auto rounded-3xl shadow-xl overflow-hidden bg-white border border-[#f1e7c6]"
+        >
+          <div
+            className="calendly-inline-widget"
+            data-url={`${CALENDLY_URL}?hide_gdpr_banner=1&primary_color=b8860b`}
+            style={{ minWidth: '320px', height: '720px' }}
+          />
+        </motion.div>
 
-        {/* COUNTRY */}
-        <Select options={countries} onChange={handleCountryChange} />
-
-        {/* EVENT TYPE */}
-        <select name="eventType" value={formData.eventType} onChange={handleChange} className="input">
-          <option value="">Select Event Type</option>
-          {eventTypes.map((t, i) => <option key={i}>{t}</option>)}
-        </select>
-
-        {/* SERVICES */}
-        <Select
-          isMulti
-          options={serviceOptions.map(s => ({ value: s, label: s }))}
-          onChange={handleMultiSelect}
-        />
-
-        {/* VENUE & DATE */}
-        <div className="grid md:grid-cols-2 gap-6">
-          <input name="venue" value={formData.venue} onChange={handleChange} placeholder="Venue" className="input" />
-          <input name="eventDate" type="date" value={formData.eventDate} onChange={handleChange} className="input" />
-        </div>
-
-        {/* VISION */}
-        <textarea name="vision" value={formData.vision} onChange={handleChange} placeholder="Event Vision" className="input" />
-
-        {/* SUBMIT */}
-        <div className="text-center">
-          <button className="px-8 py-3 mt-6 rounded-full text-white bg-[#b8860b] hover:opacity-90">
-            Continue to Booking
-          </button>
-        </div>
-
-      </form>
+        <p className="elegant-body text-center text-gray-500 mt-6 text-sm">
+          Having trouble loading the calendar?{' '}
+          <a
+            href={CALENDLY_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#b8860b] underline hover:text-[#006400]"
+          >
+            Open Calendly in a new tab
+          </a>
+          .
+        </p>
+      </section>
     </div>
   );
 };
