@@ -59,6 +59,47 @@ export const galleryAlbums = [
     ],
   },
   {
+    category: 'Ananiah’s Baby Shower',
+    slug: 'baby-shower',
+    coverImage: '/SMD01821_websize.jpg',
+    images: [
+      '/SMD02209_websize.jpg', '/SMN06048.jpg', '/SMD01992_websize.jpg', '/SMD02169_websize.jpg',
+      '/SMD01818_websize.jpg', '/SMD01821_websize.jpg', '/SMD01990_websize.jpg',
+      '/KLP00320_websize.jpg', '/KLP00325_websize.jpg', '/KLP00327_websize.jpg',
+      '/KLP00328_websize.jpg', '/KLP00331_websize.jpg', '/KLP00340_websize.jpg',
+      '/KLP00348_websize.jpg', '/KLP00350_websize.jpg', '/KLP00355_websize.jpg',
+      '/KLP00359_websize.jpg', '/KLP00367_websize.jpg', '/KLP00370_websize.jpg',
+      '/KLP00372_websize.jpg', '/KLP00373_websize.jpg', '/KLP00374_websize.jpg',
+      '/KLP00380_websize.jpg', '/KLP00383_websize.jpg', '/KLP00389_websize.jpg',
+      '/KLP00398_websize.jpg', '/KLP00411_websize.jpg', '/KLP00412_websize.jpg',
+      '/KLP00415_websize.jpg', '/KLP00416_websize.jpg', '/KLP00422_websize.jpg',
+      '/KLP00429_websize.jpg', '/KLP00431_websize.jpg', '/KLP00440_websize.jpg',
+    ],
+  },
+  {
+    category: "Chandie Girls",
+    slug: 'chandie Girls',
+    coverImage: '/SMN05916.jpg',
+    images: [
+       
+       
+      '/SMN05803.jpg', '/SMN05804.jpg', '/SMN05824.jpg', '/SMN05832.jpg',
+      '/SMN05854.jpg', '/SMN05896.jpg', '/SMN05916.jpg', '/SMN05918.jpg',
+      '/SMN05922.jpg', '/SMN05940.jpg', '/SMN05942.jpg', '/SMN05947.jpg',
+      '/SMN05953.jpg', '/SMN05968.jpg', '/SMN05975.jpg', '/SMN05992.jpg',
+      '/SMN05997.jpg', '/SMN05999.jpg', '/SMN06000.jpg', '/SMN06008.jpg',
+      '/SMN06011.jpg', '/SMN06026.jpg', '/SMN06030.jpg', '/SMN06035.jpg',
+      '/SMN06037.jpg', '/SMN06043.jpg', '/SMN06045.jpg', 
+      '/SMN06051.jpg', '/SMN06053.jpg', '/SMN06056.jpg', '/SMN06058.jpg',
+      '/SMN06061.jpg', '/SMN06079.jpg', '/SMN06083.jpg', '/SMN06093.jpg',
+      '/SMN06105.jpg', '/SMN06113.jpg', '/SMN06176.jpg', '/SMN06180.jpg',
+      '/SMN06252.jpg', '/SMN06351.jpg', '/SMN06410.jpg', '/SMN06452.jpg',
+      '/SMN06461.jpg', '/SMN06466.jpg', '/SMN06615.jpg', '/SMN06695.jpg',
+      '/SMN06728.jpg', '/SMN06752.jpg', '/SMN07259.jpg', '/SMN08304.jpg',
+    ],
+  },
+
+  {
     category: 'Brunch with Braveboy',
     slug: 'brunch-with-braveboy',
     coverImage: '/DSC07091.jpg',
@@ -112,46 +153,7 @@ export const galleryAlbums = [
       '/chi31.jpg', '/chi24.jpg', '/chi35.jpg', '/chi38.jpg', '/chi7.jpg',
     ],
   },
-  {
-    category: 'Ananiah’s Baby Shower',
-    slug: 'baby-shower',
-    coverImage: '/SMD01821_websize.jpg',
-    images: [
-      '/SMD02209_websize.jpg', '/SMN06048.jpg', '/SMD01992_websize.jpg', '/SMD02169_websize.jpg',
-      '/SMD01818_websize.jpg', '/SMD01821_websize.jpg', '/SMD01990_websize.jpg',
-      '/KLP00320_websize.jpg', '/KLP00325_websize.jpg', '/KLP00327_websize.jpg',
-      '/KLP00328_websize.jpg', '/KLP00331_websize.jpg', '/KLP00340_websize.jpg',
-      '/KLP00348_websize.jpg', '/KLP00350_websize.jpg', '/KLP00355_websize.jpg',
-      '/KLP00359_websize.jpg', '/KLP00367_websize.jpg', '/KLP00370_websize.jpg',
-      '/KLP00372_websize.jpg', '/KLP00373_websize.jpg', '/KLP00374_websize.jpg',
-      '/KLP00380_websize.jpg', '/KLP00383_websize.jpg', '/KLP00389_websize.jpg',
-      '/KLP00398_websize.jpg', '/KLP00411_websize.jpg', '/KLP00412_websize.jpg',
-      '/KLP00415_websize.jpg', '/KLP00416_websize.jpg', '/KLP00422_websize.jpg',
-      '/KLP00429_websize.jpg', '/KLP00431_websize.jpg', '/KLP00440_websize.jpg',
-    ],
-  },
-  {
-    category: "Chandie Girls",
-    slug: 'chandie Girls',
-    coverImage: '/SMN05916.jpg',
-    images: [
-       
-       
-      '/SMN05803.jpg', '/SMN05804.jpg', '/SMN05824.jpg', '/SMN05832.jpg',
-      '/SMN05854.jpg', '/SMN05896.jpg', '/SMN05916.jpg', '/SMN05918.jpg',
-      '/SMN05922.jpg', '/SMN05940.jpg', '/SMN05942.jpg', '/SMN05947.jpg',
-      '/SMN05953.jpg', '/SMN05968.jpg', '/SMN05975.jpg', '/SMN05992.jpg',
-      '/SMN05997.jpg', '/SMN05999.jpg', '/SMN06000.jpg', '/SMN06008.jpg',
-      '/SMN06011.jpg', '/SMN06026.jpg', '/SMN06030.jpg', '/SMN06035.jpg',
-      '/SMN06037.jpg', '/SMN06043.jpg', '/SMN06045.jpg', 
-      '/SMN06051.jpg', '/SMN06053.jpg', '/SMN06056.jpg', '/SMN06058.jpg',
-      '/SMN06061.jpg', '/SMN06079.jpg', '/SMN06083.jpg', '/SMN06093.jpg',
-      '/SMN06105.jpg', '/SMN06113.jpg', '/SMN06176.jpg', '/SMN06180.jpg',
-      '/SMN06252.jpg', '/SMN06351.jpg', '/SMN06410.jpg', '/SMN06452.jpg',
-      '/SMN06461.jpg', '/SMN06466.jpg', '/SMN06615.jpg', '/SMN06695.jpg',
-      '/SMN06728.jpg', '/SMN06752.jpg', '/SMN07259.jpg', '/SMN08304.jpg',
-    ],
-  },
+
 ];
 
 export const ALL_SLUG = 'all';
