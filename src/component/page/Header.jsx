@@ -47,13 +47,18 @@ const Header = () => {
         <div className="flex justify-between items-center py-3">
 
        {/* LOGO */}
-<div className="flex items-center h-14 md:h-16">
+<Link
+  to="/"
+  onClick={() => setIsMobileMenuOpen(false)}
+  aria-label="Pinch of Luxe Events — Home"
+  className="flex items-center h-14 md:h-16 focus:outline-none focus:ring-2 focus:ring-[#d4af37] rounded"
+>
   <img
     src="/lg12.png"
     alt="Pinchofluxeevents Logo"
     className="h-full w-auto object-contain"
   />
-</div>
+</Link>
 
           {/* DESKTOP NAV */}
           <nav className="hidden md:flex gap-5 lg:gap-8 text-base lg:text-lg text-green-900 font-medium">
