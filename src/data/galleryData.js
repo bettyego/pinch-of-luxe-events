@@ -59,12 +59,12 @@ export const galleryAlbums = [
     ],
   },
   {
-    category: 'Ananiah’s Baby Shower',
+    category: 'Anaiah’s Baby Shower',
     slug: 'baby-shower',
     coverImage: '/SMD01821_websize.jpg',
     images: [
-      '/SMD02209_websize.jpg', '/SMN06048.jpg', '/SMD01992_websize.jpg', '/SMD02169_websize.jpg',
-      '/SMD01818_websize.jpg', '/SMD01821_websize.jpg', '/SMD01990_websize.jpg',
+      '/SMD02209_websize.jpg', '/SMD02169_websize.jpg',
+      
       '/KLP00320_websize.jpg', '/KLP00325_websize.jpg', '/KLP00327_websize.jpg',
       '/KLP00328_websize.jpg', '/KLP00331_websize.jpg', '/KLP00340_websize.jpg',
       '/KLP00348_websize.jpg', '/KLP00350_websize.jpg', '/KLP00355_websize.jpg',

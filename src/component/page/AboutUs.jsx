@@ -5,10 +5,10 @@ import { FaGem, FaHeart, FaStar } from 'react-icons/fa';
 
 const videos = [
   { src: '/Zuri .mp4', title: 'Zuri is One' },
-  { src: '/ChichiBirthdayDecor.mp4', title: "Blooming into Bad & Boujee" },
+  { src: '/ChichiBirthdayDecor.mp4', title: "Chidinma's 35th" },
   { src: '/Braveboy1.mp4', title: 'Brave Boy Celebration' },
   { src: '/Chandie.mp4', title: 'Chandie Girls' },
-  { src: '/vid.mp4', title: 'Signature Setup' },
+  { src: '/vid.mp4', title: 'Blooming into Bad & Boujee' },
   { src: '/vid1.mp4', title: 'Aisha Braveboy Inauguration: Prince George’s County Executive' },
   { src: '/vid2.mp4', title: 'First Royal Ball' },
    { src: '/His.mp4', title: 'His Royal Majesty is One' },
