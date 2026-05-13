@@ -133,6 +133,16 @@ export const galleryAlbums = [
       '/6Y0A8872.jpg', '/6Y0A8868.jpg',
     ],
   },
+    {
+    category: "OGO 30th BDAY",
+    slug: 'ogo 30th bday',
+    coverImage: '/ogo10.jpg',
+    images: [
+      '/ogo1.jpg', '/ogo2.jpg', '/ogo3.jpg', '/ogo4.jpg',
+      '/ogo5.jpg', '/ogo6.jpg', '/ogo7.jpg', '/ogo9.jpg',
+      '/ogo10.jpg',
+    ],
+  },
   {
     category: 'Birthdays',
     slug: 'birthdays',

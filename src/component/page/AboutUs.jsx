@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { FaGem, FaHeart, FaStar } from 'react-icons/fa';
+import { b } from 'framer-motion/client';
 
 const videos = [
   { src: '/Zuri .mp4', title: 'Zuri is One' },
@@ -12,6 +13,10 @@ const videos = [
   { src: '/vid1.mp4', title: 'Aisha Braveboy Inauguration: Prince George’s County Executive' },
   { src: '/vid2.mp4', title: 'First Royal Ball' },
    { src: '/His.mp4', title: 'His Royal Majesty is One' },
+     { src: '/georgette and fredrick .MP4', title: 'Georgette and Frederick' },
+   { src: '/ZION1.MP4', title: 'Zion Birthday' },
+    { src: '/lead.mp4', title: 'The woman who bravely leads' },
+   
   
   
 ];
